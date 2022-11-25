@@ -1,0 +1,435 @@
+/*  Programadores:
+    José Elías Morales Contreras
+    Mauricio Antonio Rodríguez Jiménez
+    Fecha: 15-Octubre-2022 
+*/
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor{
+    width: 1450px;
+}
+
+/*Sección N°1*/
+
+.barra{
+    width: 1450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra img{
+    width: 45px;
+    height: 45px;
+}
+
+.imagen-uno{
+    width: 100%;
+}
+
+.imagen-uno img{
+
+    width: 1450px;
+}
+
+.texto-superpuesto{
+    width: 1450px;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+
+.texto-centro{
+    font-size: 60px;
+    font-weight: bold;
+    color: #2e2e30;
+}
+
+.texto-abajo{
+    font-style: italic;
+    color: #838383;
+}
+
+.img-from a{
+    text-decoration: none;
+    color: #71c5cc;
+    font-weight: bold;
+}
+
+.buton-uno input{
+    margin: 3px;
+    padding: 3px;
+    width: 145px;
+    height: 40px;
+    background-color: black;
+    border-radius: 25px 25px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.buton-uno input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: #000000;
+    background-color: #38d3d8;
+    border-color: #38d3d8;
+    transition: 0.3s;
+}
+
+/*Sección N°2*/
+.areas-business{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.areas-business p{
+    top: 25px;
+
+}
+
+.area-q{
+    padding: 28px;
+    width: 30%;
+    height: 260px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.area-q h2{
+    font-weight: bold;
+}
+
+.texto-q{
+    font-style: italic;
+}
+
+.area-g{
+    padding: 28px;
+    width: 30%;
+    height: 260px;
+    background-color: #38d3d8;
+    color: white;
+    text-align: center;
+}
+.area-g h2{
+    font-weight: bold;
+}
+.texto-g{
+    font-style: italic;
+}
+
+.area-c{
+    padding: 28px;
+    width: 30%;
+    height: 260px;
+    background-color: #14b9bf;
+    color: white;
+    text-align: center;
+}
+.area-c h2{
+    font-weight: bold;
+}
+.texto-c{
+    font-style: italic;
+}
+
+/*Sección N°3*/
+.imagen-tres{
+    text-align: center;
+}
+.imagen-tres h1{
+    font-size: xx-large;
+}
+
+.imagen-tres p{
+    padding: 15px;
+}
+
+.buton-dos input{
+    margin: 3px;
+    padding: 3px;
+    width: 145px;
+    height: 40px;
+    background-color: #ffffff;
+    border-color: gray;
+    font-size: small;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.buton-dos input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #2e2e30;
+    transition: 0.3s;
+}
+
+/*Sección N°4*/
+
+.seccion4-1{
+    display: flex;
+    width: 1450px;
+    background-color: #f2f2f2;
+}
+
+.seccion4-1 div{
+    width: 50%;
+}
+
+.seccion4-1 img{
+    width: 725px;
+    height: 725px;
+}
+
+
+.seccion4-2{
+    text-align: left;
+    margin: 150px;
+}
+
+.seccion4-2 h1{
+    font-size: xx-large;
+}
+
+.seccion4-2 a{
+    margin-top: 30px;
+}
+
+.seccion4-2 input{
+    background-color: #38d2d9;
+    border-radius: 20px 20px;
+    border-color: #38d2d9;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.seccion4-2 input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-color: black;
+    transition: 0.3s;
+}
+/*aqui empiezan las secciones que hice*/
+
+.seccion5-1{
+    width: 1450px;
+    text-align: center;
+
+}
+
+.seccion5-1 h1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.seccion5-1 p{
+    color: gray;
+}
+
+.seccion5-2 div{
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.seccion5-3{
+    display: flex;
+}
+
+.seccion5-3 div{
+    text-align: center;
+}
+
+.seccion5-3 p{
+    font-style: italic;
+}
+
+.seccion5-3 h2{
+    font-size: large;
+}
+
+.seccion5-3 img{
+    width: 100px;
+    height: 70px;
+}
+
+.seccion5-1 input{
+    background-color: white;
+    border-color: #38d2d9;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.seccion5-1 input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-color: black;
+    transition: 0.3s;
+}
+
+.boton5-1{
+    margin-bottom: 40px;
+}
+
+.seccion6-1{
+    display: flex;
+    width: 1450px;
+    background-color: #f2f2f2;
+}
+
+.seccion6-1 div{
+    width: 50%;
+}
+
+.seccion6-1 img{
+    width: 725px;
+    height: 725px;
+}
+
+
+.seccion6-2{
+    text-align: left;
+    margin: 150px;
+}
+
+.seccion6-2 h1{
+    font-size: xx-large;
+}
+
+.seccion6-2 a{
+    margin-top: 30px;
+}
+
+.seccion6-2 input{
+    background-color: #38d2d9;
+    border-radius: 20px 20px;
+    border-color: #38d2d9;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.seccion6-2 input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-color: black;
+    transition: 0.3s;
+}
+
+.seccion7-1{
+    display: flex;
+    width: 1450px;
+    background-color: #38d2d9;
+}
+
+.seccion7-1 input{
+    
+    background-color: white;
+    border-radius: 20px 20px;
+    border-color: white;
+    color: #38d2d9;
+    font-size: large;
+    font-weight: bold;
+}
+
+.seccion7-1 input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-color: black;
+    transition: 0.3s;
+}
+
+.seccion7-2{
+    width: 66%;
+    text-align: left;
+    margin-left: 140px;
+}
+
+.seccion7-2 h1{
+    font-size: xx-large;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.seccion7-2 p{
+    margin-top: 10px;
+    color: white;
+}
+
+.buttonSeccion7 input{
+   margin-top: 60px;
+}
+
+.seccion8-1{
+    width: 1450px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.seccion8-1 h1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.seccion8-1 p{
+    color: gray;
+    margin-bottom: 400px;
+}
+
+.seccion8-1 input{
+    
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.seccion8-1 input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: 0.3s;
+}
+
+.seccion9-1{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.seccion9-1 p{
+    padding: 50px;
+}
